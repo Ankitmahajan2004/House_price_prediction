@@ -1,3 +1,4 @@
-streamlit
-scikit-learn
+flask
+gunicorn
 numpy
+scikit-learn==1.6.1
