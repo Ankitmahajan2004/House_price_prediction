@@ -65,7 +65,7 @@ st.markdown("---")
 
 # Prediction Execution
 if st.button("Calculate Property Value", type="primary", use_container_width=True):
-    # Vector ordered exactly as feature_names_in_ metadata array
+    # Vector ordered exactly as required by the model
     features = np.array([[
         prop_id, date_val, bedrooms, bathrooms, living_area, lot_area,
         floors, waterfront, views, condition, grade, area_above,
